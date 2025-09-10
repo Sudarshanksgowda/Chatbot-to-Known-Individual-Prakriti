@@ -1,0 +1,39 @@
+<!-- Home page -->
+<div class="flex flex-col items-center justify-center min-h-screen bg-green-50">
+  <h1 class="text-4xl font-bold mb-6">Welcome to Prakriti Chatbot</h1>
+  <button class="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700">
+    Start Chat
+  </button>
+</div>
+
+<!-- Chat page -->
+<div class="flex flex-col h-screen bg-green-50">
+  <header class="p-4 bg-green-600 text-white text-center text-2xl font-bold">
+    Prakriti Chatbot
+  </header>
+  <main class="flex-grow p-4 overflow-y-auto">
+    <!-- Messages will appear here -->
+    <div class="space-y-4">
+      <!-- For each message -->
+      <div class="max-w-md p-3 rounded bg-green-300 self-end">
+        User message text here
+      </div>
+      <div class="max-w-md p-3 rounded bg-white self-start">
+        Bot message text here
+      </div>
+    </div>
+  </main>
+  <footer class="p-4 bg-green-100 flex items-center space-x-2">
+    <input
+      type="text"
+      class="flex-grow border border-green-400 rounded px-3 py-2"
+      placeholder="Type your message..."
+    />
+    <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+      Send
+    </button>
+    <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+      Share
+    </button>
+  </footer>
+</div>
