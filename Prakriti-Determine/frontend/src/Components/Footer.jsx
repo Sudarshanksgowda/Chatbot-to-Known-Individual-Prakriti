@@ -25,17 +25,7 @@ function Footer() {
         <div className="ft-copyright">
           <p>© 2023-2024 Ayurlnsights. All rights reserved.</p>
         </div>
-        <div className="ft-developlist flex flex-row justify-center items-center gap-1">
-          Developed by Prathamesh Dhande{" "}
-          <a href={"https://github.com/PrathameshDhande22"}>
-            <FaGithub />
-          </a>
-          , Goutam Thakur{" "}
-          <a href={"https://github.com/goutamthakur"}>
-            <FaGithub />
-          </a>
-          , Chaitanya Mestry, & Lonith Shetty
-        </div>
+        
       </div>
     </div>
   );
