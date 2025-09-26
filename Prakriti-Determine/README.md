@@ -169,4 +169,4 @@ npm run dev
 
 You have successfully setup your project.
 
-## Author: Prathamesh Dhande
+
